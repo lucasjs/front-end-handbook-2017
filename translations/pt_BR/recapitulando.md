@@ -7,27 +7,28 @@
 * [React Native](https://facebook.github.io/react-native/) e [NativeScript](https://www.nativescript.org/) começaram a substituir desenvolvimento mobile HTML5 webview híbrido.
 * [Muitos abandonam](https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.f9waa6mnx) Gulp pelo NPM, mas Gulp permanece popular.
 * SASS permanece uma ferramenta popular, enquanto [PostCSS (+ CSSNext) ganha terreno](https://tylergaw.com/articles/sass-to-postcss).
-* Linting/Hinting [HTML](http://htmlhint.com/), [CSS](http://stylelint.io/), and [JavaScript](http://eslint.org/) is a thing most developers do (ESlint replaces [JShint](http://jshint.com/) & [JSCS](http://jscs.info/) merges into ESLint).
+* Usar Linting/Hinting em [HTML](http://htmlhint.com/), [CSS](http://stylelint.io/), e [JavaScript](http://eslint.org/) é uma coisa que
+a maioria dos desenvolvedores fazem (ESlint substitui [JShint](http://jshint.com/) & [JSCS](http://jscs.info/) foi agregado ao ESLint).
 * Uma tendência de desenvolvedores abandonando Sublime e Atom pelo [Visual Studio Code](https://code.visualstudio.com/) começa.
 * [jQuery permanece](https://trends.builtwith.com/javascript), mas o uso/interesse está [caindo](https://www.google.com/trends/explore?q=jQuery). [jQuery 3 foi lançado](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/), como uma árvore caindo em uma floresta onde ninguém ouve.
 * [Vue.js](https://vuejs.org/) continua a ganhar adeptos. Merecidamente!
 * Programação e padrões de JavaScript funcional [ganham](https://www.manning.com/books/functional-programming-in-javascript) [uma](https://github.com/MostlyAdequate/mostly-adequate-guide) [porrada](https://github.com/getify/Functional-Light-JS) [de](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) atenção.
 * [Desenvolvimento offline](https://developers.google.com/web/fundamentals/getting-started/codelabs/offline/) & [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/) ficaram populares.
 * Microsoft [dá as caras e contribui](http://developer.telerik.com/featured/microsoft-done-lately/).
-* Developing native applications for windows, OSX, and linux using things like [NW.js](https://nwjs.io/) and [Electron](http://electron.atom.io/) via web technologies becomes a thing.
-* [Angular 2](https://angular.io/) (in the future aka "[Angular](https://juristr.com/blog/2016/12/let-me-explain-angular-release-cycles/)") gets off the pot and most realize it will never be as mainstream as Angular 1.
-* JavaScript broadly remains at the [center](http://stackoverflow.com/research/developer-survey-2016#technology-top-tech-on-stack-overflow) [of](http://stackoverflow.com/research/developer-survey-2016#technology-most-popular-technologies) [software](http://stackoverflow.com/research/developer-survey-2016#technology-correlated-technologies) technologies.
-* More developers start caring about tooling (e.g. automation) and testing.
-* [Static site generators](https://www.staticgen.com/) are [taken](https://github.com/vigetlabs/gulp-starter/tree/blendid) [seriously](https://phenomic.io/).
-* [CSS Grid excitement grows](http://meyerweb.com/eric/thoughts/2016/12/05/css-grid/) and the future looks bright.
-* [NPM](https://www.npmjs.com/) gets some competition from [Yarn](https://yarnpkg.com/).
-* The next evolution of React-like solutions shows up via [Preact](https://preactjs.com/), [Deku](https://github.com/anthonyshort/deku), [Rax](https://github.com/alibaba/rax), and [inferno](https://infernojs.org/) showcasing evolution without much API change.
+* Desenvolver aplicações nativas para Windows, OSX e Linux usando coisas como [NW.js](https://nwjs.io/) e [Electron](http://electron.atom.io/) via tecnologias web tonar-se uma possibilidade.
+* [Angular 2](https://angular.io/) (futuramente também conhecido como "[Angular](https://juristr.com/blog/2016/12/let-me-explain-angular-release-cycles/)") libera a moita e a maioria se conforma que ele jamais vai ser tão popular quanto Angular 1.
+* JavaScript permanece com folga no [centro](http://stackoverflow.com/research/developer-survey-2016#technology-top-tech-on-stack-overflow) [das](http://stackoverflow.com/research/developer-survey-2016#technology-most-popular-technologies) [tecnologias](http://stackoverflow.com/research/developer-survey-2016#technology-correlated-technologies) de desenvolvimento de software.
+* Mais desenvolvedores começam a se preocupar com tooling (n.e. automação) e testes.
+* [Geradores de sites estáticos](https://www.staticgen.com/) são [levados](https://github.com/vigetlabs/gulp-starter/tree/blendid) [bem a sério](https://phenomic.io/).
+* [A exaltação por CSS Grid cresce](http://meyerweb.com/eric/thoughts/2016/12/05/css-grid/) e o futuro parece brilhante.
+* [NPM](https://www.npmjs.com/) encontra certa rivalidade no [Yarn](https://yarnpkg.com/).
+* A próxima evolução de solução estilo React surge através do [Preact](https://preactjs.com/), [Deku](https://github.com/anthonyshort/deku), [Rax](https://github.com/alibaba/rax), e [inferno](https://infernojs.org/) mostrando evolução sem muitas mudanças na API.
 * A maioria das pessoas aprendem a aceitar  [JSX](https://facebook.github.io/jsx/), e agora elas não se imaginam não usando.
-* A workable CSS module pattern (CSS encapsulation) is actualized and used, thus [CSS in JS](https://github.com/MicheleBertoli/css-in-js) becomes a viable solution for many.
+* Um padrão modular funcional de CSS (encapsulamento de CSS) é atualizado e utilizado, assim [CSS no JS](https://github.com/MicheleBertoli/css-in-js) vira uma solução viável pra muitos.
 * More people turning to UI functional/integration testing including concepts like visual [CSS](https://css-tricks.com/automating-css-regression-testing/) & RWD regression testing.
-* The days of [battling](https://kangax.github.io/compat-table/es6/) [inconsistent browser API's](https://html5test.com/results/desktop.html) are almost behind us due to a massive decline in usage and development for [older versions of IE](https://www.netmarketshare.com/browser-market-share.aspx?qprid=2&qpcustomd=0).
-* Most everyone realized they will have to have a [multi-device strategy](http://www.intel.com/content/dam/www/public/us/en/images/iot/guide-to-iot-infographic.png) plan when developing for the web
-* More developers, from other languages, continue to flood the JavaScript space bringing with them things like [type checking](https://flowtype.org/) and an [obsession with class syntax and OOP concepts](https://www.typescriptlang.org/).
+* Os dias de [guerra](https://kangax.github.io/compat-table/es6/) contra [API's de navegadores inconsistentes](https://html5test.com/results/desktop.html) estão quase no fim graças à um massivo declínio de uso e desenvolvimento para [versões antigas do IE](https://www.netmarketshare.com/browser-market-share.aspx?qprid=2&qpcustomd=0).
+* Quase todo mundo percebeu que eles vão precisar de uma [plano estratégico multi-dispositivos](http://www.intel.com/content/dam/www/public/us/en/images/iot/guide-to-iot-infographic.png) quando desenvolver para a web
+* Mais desenvolvedores, de outras linguagens, continuam enchendo o JavaScript com coisas como  [tipagem forte](https://flowtype.org/) e uma  [obssessão com sintaxe de classes e conceitos de orientação a objetos](https://www.typescriptlang.org/).
 * Front-end devs are introduced to [Hot Module replacement techniques and time travel debugging](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35#.ezlpqez1i).
 * More waiting for a native [JavaScript browser module loader](https://whatwg.github.io/loader/).
 * [Enforcing CSS](https://css-tricks.com/stylelint/) and [JavaScript style conventions](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) becomes more important (considering ES3 to ES6 code and CSS pre-processors syntactical variations)
